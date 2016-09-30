@@ -1,0 +1,39 @@
+header {
+  text-align: center;
+}
+.blocks {
+  height: auto;
+  width: auto;
+  background-color: silver;
+  margin: 10px auto;
+  padding: 10px;
+  text-align: center;
+  font-size: 30px;
+  text-decoration-color: teal;
+}
+
+body {
+  background-color: teal;
+}
+
+h1 {
+  color: white;
+}
+
+h3 {
+  color: white;
+}
+
+@media only screen and (max-width : 320px) {
+  body {
+  background-color: silver;
+}
+
+h1 {
+  color: white;
+}
+
+h3 {
+  color: white;
+}
+}
