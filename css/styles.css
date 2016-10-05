@@ -1,3 +1,16 @@
+.clearfix:before,.clearfix:after {
+ content: "";
+ display: table;
+ }
+
+ .clearfix:after {
+  clear: both;
+ }
+
+.container {
+  padding: 0 20px;
+ }
+
 header {
   text-align: center;
  }
@@ -6,7 +19,7 @@ header {
   height: auto;
   width: auto;
   background-color: silver;
-  margin: 10px auto;
+  margin: 10px;
   padding: 10px;
   text-align: center;
   font-size: 30px;
@@ -26,6 +39,8 @@ h3 {
   color: white;
  } /*T17ANS*/
 
+
+
 @media only screen and (min-width: 600px) {
   body {
   background-color: grey;
@@ -39,12 +54,12 @@ h3 {
  } 
 
  #L {
-  width: 50%;
+  width: 45%;
   float: left;
  }
 
  #R {
-    width: 50%;
+    width: 45%;
   float: left;
  }
 
@@ -62,9 +77,9 @@ h3 {
  }
 
   #L {
-  width: 33%;
+  width: 25%;
  }
 
  #R {
-  width: 33%;
+  width: 25%;
  }
