@@ -28,9 +28,12 @@ h3 {
 
 @media only screen and (min-width: 600px) {
   body {
-  background-color: silver;
+  background-color: grey;
  }
 
+ h1 {
+  color: gold;
+ }
  .blocks {
   background-color: teal;
  } 
